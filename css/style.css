@@ -2,8 +2,10 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(../img/dark-cloud.jpg) no-repeat;
-    background-size: cover;
+    background: url(../img/8ae104a88d8fd8e5c4d1a9cbea4d4c96.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 .box {
     width: 450px;
@@ -14,7 +16,7 @@ body{
     margin-top: 0%;
     color: white;
     font-family: 'Century Gothic',sans-serif;
-    box-shadow: 0 0 35px rgb(0, 0, 139);
+    box-shadow: 0 0 35px rgba(38, 0, 255, 0);
     border-radius: 15px;
     position: absolute;
     top: 50%;
@@ -26,7 +28,7 @@ body{
     width: 200px;
     height: 200px;
     border: 5px solid black;
-    box-shadow: 0 0 10px #00008B, 0 0 10px #00008B, 0 0 15px #fff;
+    box-shadow: 0 0 10px #2600ff00, 0 0 10px #0400f500, 0 0 15px #fff;
 }
 .box h1{
     font-size: 40px;
