@@ -25,7 +25,17 @@
 
   gtag('config', 'G-V8DPGHC3RX');
 </script>
-    
+
+<script>
+  function playSong() {
+    var audio = document.getElementById("myAudio");
+    audio.play();
+
+    // أخفِ العنصر الذي يغطّي الصفحة
+    document.querySelector(".container").style.display = "none";
+  }
+</script>
+
 </head>
 <body>
     
